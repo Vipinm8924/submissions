@@ -22,7 +22,7 @@ print(result_matrix)
 
 
 
-import pandas as pd
+
 
 def get_type_count(df):
     # Add a new categorical column 'car_type'
@@ -49,7 +49,7 @@ print(type_count)
 
 
 
-import pandas as pd
+
 
 def get_bus_indexes(df):
     # Calculate the mean value of the 'bus' column
@@ -75,7 +75,7 @@ print(bus_indices)
 
 
 
-import pandas as pd
+
 
 def filter_routes(df):
     # Group by 'route' column and calculate the average of 'truck' column
@@ -137,7 +137,6 @@ print(modified_sample_result_df)
 
 
 
-import pandas as pd
 
 def verify_time_completeness(df):
     # Combine 'startDay' and 'startTime' to create a single start timestamp
