@@ -30,8 +30,6 @@ print(result_distance_matrix)
 
 
 
-import pandas as pd
-
 def unroll_distance_matrix(distance_df):
     # Create an empty list to store unrolled data
     unrolled_data = []
@@ -59,8 +57,6 @@ unrolled_distance_df = unroll_distance_matrix(distance_df)
 print(unrolled_distance_df)
 
 
-
-import pandas as pd
 
 def find_ids_within_ten_percentage_threshold(df, reference_value):
     # Calculate the average distance for the reference value
@@ -98,7 +94,7 @@ print(ids_within_threshold)
 
 
 
-import pandas as pd
+
 
 def calculate_toll_rate(df):
     # Calculate toll rates for each vehicle type using their rate coefficients
